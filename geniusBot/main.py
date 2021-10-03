@@ -21,7 +21,7 @@ async def start(message: types.Message):
 @dp.message_handler()
 async def emojiText(message: types.Message):
     msg = message.text
-    print(msg)
+    
     try:
         at = msg.split(',')
         artist = at[0] 
